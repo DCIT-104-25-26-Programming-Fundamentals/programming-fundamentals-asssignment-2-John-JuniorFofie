@@ -64,9 +64,7 @@
 #include <iomanip>
 #include <string>
 using namespace std;
-#include <iostream>
-#include <iomanip>
-using namespace std;
+
 
 
 // Function to display a matrix
