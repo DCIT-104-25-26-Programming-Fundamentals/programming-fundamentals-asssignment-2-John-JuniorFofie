@@ -43,7 +43,7 @@
 using namespace std;
 
 
-// Function to calculate the sum of all numbers
+
 int calculateSum(int numbers[], int size)
 {
     int sum = 0;
@@ -57,7 +57,7 @@ int calculateSum(int numbers[], int size)
 }
 
 
-// Function to calculate the average
+
 double calculateAverage(int numbers[], int size)
 {
     int sum = calculateSum(numbers, size);
@@ -66,7 +66,7 @@ double calculateAverage(int numbers[], int size)
 }
 
 
-// Function to find the maximum number
+
 int findMaximum(int numbers[], int size)
 {
     int max = numbers[0];
@@ -83,7 +83,7 @@ int findMaximum(int numbers[], int size)
 }
 
 
-// Function to find the minimum number
+
 int findMinimum(int numbers[], int size)
 {
     int min = numbers[0];
@@ -108,7 +108,7 @@ int main()
     cin >> n;
 
 
-    // Check if number of inputs is valid
+   
     if (n <= 0)
     {
         cout << "Error: Please enter a positive integer." << endl;
@@ -119,7 +119,6 @@ int main()
     int numbers[100];
 
 
-    // Getting numbers from user
     for (int i = 0; i < n; i++)
     {
         cout << "Enter number " << i + 1 << ": ";
@@ -127,14 +126,14 @@ int main()
     }
 
 
-    // Calling functions
+   
     int sum = calculateSum(numbers, n);
     double average = calculateAverage(numbers, n);
     int maximum = findMaximum(numbers, n);
     int minimum = findMinimum(numbers, n);
 
 
-    // Display results
+  
     cout << "\nResults:" << endl;
     cout << "Sum:     " << sum << endl;
     cout << "Average: " << average << endl;
