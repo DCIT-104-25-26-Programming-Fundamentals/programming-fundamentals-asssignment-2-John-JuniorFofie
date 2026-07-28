@@ -91,42 +91,42 @@ void displayMenu()
 }
 
 
-// Addition
+
 double add(double a, double b)
 {
     return a + b;
 }
 
 
-// Subtraction
+
 double subtract(double a, double b)
 {
     return a - b;
 }
 
 
-// Multiplication
+
 double multiply(double a, double b)
 {
     return a * b;
 }
 
 
-// Division
+
 double divide(double a, double b)
 {
     return a / b;
 }
 
 
-// Modulus
+
 int modulus(int a, int b)
 {
     return a % b;
 }
 
 
-// Exponentiation
+
 double power(double base, double exponent)
 {
     return pow(base, exponent);
