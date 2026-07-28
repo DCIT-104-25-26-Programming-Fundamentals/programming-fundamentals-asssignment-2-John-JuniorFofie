@@ -67,7 +67,6 @@ using namespace std;
 
 
 
-// Function to display a matrix
 void displayMatrix(int matrix[][10], int rows, int cols)
 {
     for (int i = 0; i < rows; i++)
@@ -81,7 +80,6 @@ void displayMatrix(int matrix[][10], int rows, int cols)
 }
 
 
-// Part A: Transpose a matrix
 void transposeMatrix(int matrix[][10], int rows, int cols)
 {
     cout << "\nTransposed Matrix:" << endl;
@@ -97,7 +95,6 @@ void transposeMatrix(int matrix[][10], int rows, int cols)
 }
 
 
-// Part B: Add two matrices
 void addMatrices(int A[][10], int B[][10], int result[][10],
                  int rows, int cols)
 {
@@ -110,8 +107,6 @@ void addMatrices(int A[][10], int B[][10], int result[][10],
     }
 }
 
-
-// Part C: Multiply two matrices
 void multiplyMatrices(int A[][10], int B[][10], int result[][10],
                       int rowsA, int colsA, int colsB)
 {
@@ -130,7 +125,6 @@ void multiplyMatrices(int A[][10], int B[][10], int result[][10],
 }
 
 
-// Function to input matrix values
 void inputMatrix(int matrix[][10], int rows, int cols)
 {
     for (int i = 0; i < rows; i++)
@@ -157,7 +151,7 @@ int main()
     cin >> cols;
 
 
-    // Input first matrix
+
     inputMatrix(matrix, rows, cols);
 
 
@@ -165,12 +159,11 @@ int main()
     displayMatrix(matrix, rows, cols);
 
 
-    // Part A
+
     transposeMatrix(matrix, rows, cols);
 
 
 
-    // Part B: Addition
 
     int matrixB[10][10];
     int additionResult[10][10];
@@ -189,7 +182,6 @@ int main()
 
 
 
-    // Part C: Multiplication
 
     int rowsB, colsB;
 
